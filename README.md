@@ -1,0 +1,1 @@
+jquery-client-credentials
