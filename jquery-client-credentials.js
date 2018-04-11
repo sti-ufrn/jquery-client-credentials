@@ -1,8 +1,8 @@
 var client_id = "my_client_id";
 var client_secret = "my_client_secret";
 var x_api_key = "my_x_api_key";
-var url_base = "https://apitestes.info.ufrn.br/";
-var url_token = url_base + "authz-server/oauth/token?client_id=" + client_id + "&client_secret=" + client_secret + "&grant_type=" + "client_credentials";
+var url_base = "https://api.info.ufrn.br/";
+var url_token = "https://autenticacao.info.ufrn.br/authz-server/oauth/token?client_id=" + client_id + "&client_secret=" + client_secret + "&grant_type=" + "client_credentials";
 
 var settings = {  
 	"async": true,  
